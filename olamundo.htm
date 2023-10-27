@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Mundo</title>
+</head>
+<style>
+.botao{
+    background-color: rgb(88, 8, 236);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+.elogiar{
+    background-color: rgb(41, 112, 21);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+}
+
+</style>
+
+<body>
+
+
+
+    <input class="botao" type="button" value="Apresentar" onclick="apresentar()"> <br>
+    <input class="elogiar" type="button" value="Elogiar" onclick="elogiar()">
+
+    <script>
+        // JS vai aqui
+
+
+
+        function apresentar() {
+            var nome = prompt("Digite seu nome: ");
+            var idade = prompt("Digite sua idade: ");
+
+            alert("Olá " + nome + ", que bom que você tem " + idade + " anos ");
+        }
+        function elogiar() {
+            alert("Gostoso")
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
